@@ -1,0 +1,25 @@
+{
+  "name": "nama-repo-lowercase-dengan-dash",
+  "version": "1.0.0",
+  "description": "Membuat sebuah project open source yang menggabungkan AI + Web3 untuk membuat solusi pribadi dan inovatif.",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "build": "tsc",
+    "test": "jest",
+    "deploy": "hardhat run scripts/deploy.js --network mainnet"
+  },
+  "keywords": ["web3", "ai", "blockchain", "python"],
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^6.9.0",
+    "hardhat": "^2.19.0",
+    "@openzeppelin/contracts": "^5.0.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "@types/node": "^20.10.0",
+    "ts-node": "^10.9.2"
+  }
+}
